@@ -1,0 +1,46 @@
+.todos{
+  display: grid;
+  grid-gap: 5px;
+  height: 100vh;
+  text-align: center;
+  margin-top: 10px;
+}
+.todo_newTodoInput{
+  padding: 15px;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px 0 0 5px;
+  display: inline-block;
+}
+.todo_newTodoInput:hover{
+  border: 1px solid rgb(83, 83, 83);
+}
+.todo_newTodoButton{
+  padding: 15px;
+  background-color: #12b371;
+  color: white;
+  border-radius: 0  5px 5px 0;
+  display: inline-block;
+}
+.todo_todosList{
+  margin-top: 15px;
+}
+.todo_todoItem{
+  border-radius: 5px;
+  margin-bottom: 5px;
+  list-style-type: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around
+}
+
+.todo_listItemRemoveButton{
+  background-color: rgb(255, 41, 41);
+  padding: 8px;
+  color: white;
+  font-size: 14px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.todo_listItemDoneCheckbox{
+  margin-right: 15px;
+}
